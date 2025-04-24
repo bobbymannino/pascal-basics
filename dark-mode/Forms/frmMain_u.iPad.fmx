@@ -1,0 +1,10 @@
+inherited frmMain_iPad: TfrmMain_iPad
+  ClientHeight = 1004
+  ClientWidth = 768
+  DesignerMasterStyle = 0
+  inherited StyleBookWooooo: TStyleBook
+    Styles = <
+      item
+      end>
+  end
+end

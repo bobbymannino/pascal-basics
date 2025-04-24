@@ -14,6 +14,11 @@ type
   TfrmMain = class(TForm)
     btnToggleTheme: TButton;
     lblTheme: TLabel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Button1: TButton;
+    StyleBookWooooo: TStyleBook;
+    StyleBookDarkSide: TStyleBook;
     procedure FormCreate(Sender: TObject);
     procedure btnToggleThemeClick(Sender: TObject);
   private
@@ -29,6 +34,7 @@ var
 implementation
 
 {$R *.fmx}
+{$R *.iPad.fmx IOS}
 
 procedure TfrmMain.btnToggleThemeClick(Sender: TObject);
 begin
@@ -36,13 +42,13 @@ begin
   begin
   lblTheme.Text := 'Theme: Light';
   theme:=TTheme.Light;
-//  StyleBook := stylLightMode;
+  StyleBook := StyleBookWooooo;
   end
 else
 begin
   lblTheme.text := 'Theme: Dark';
   theme := TTheme.Dark;
-//  StyleBook := stylDarkMode;
+  StyleBook := StyleBookDarkSide;
 end;
 end;
 

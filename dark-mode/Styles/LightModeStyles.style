@@ -1,0 +1,44 @@
+object TStyleContainer
+  object TLayout
+    StyleName = 'Heading1'
+    Align = Center
+    Size.Width = 132.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    Visible = False
+    TabOrder = 4
+    object TText
+      StyleName = 'text'
+      Align = Client
+      Locked = True
+      HitTest = False
+      Size.Width = 132.000000000000000000
+      Size.Height = 72.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Family = 'Fira Code'
+      TextSettings.Font.Size = 32.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+  object TLayout
+    StyleName = 'Heading2'
+    Align = Center
+    Size.Width = 132.000000000000000000
+    Size.Height = 72.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object TText
+      StyleName = 'text'
+      Align = Client
+      Locked = True
+      HitTest = False
+      Size.Width = 132.000000000000000000
+      Size.Height = 72.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Text'
+      TextSettings.Font.Family = 'Fira Code'
+      TextSettings.Font.Size = 24.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+    end
+  end
+end
