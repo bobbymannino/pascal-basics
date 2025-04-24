@@ -1,0 +1,10 @@
+﻿[btnToggleTheme]
+Coordinates=90,80,111,58
+
+[lblTheme]
+Coordinates=250,60,67,58
+Visible=True
+
+[]
+Coordinates=216,1,91,36
+

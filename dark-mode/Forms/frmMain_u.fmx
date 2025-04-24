@@ -1,0 +1,36 @@
+object frmMain: TfrmMain
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'Dark Mode'
+  ClientHeight = 193
+  ClientWidth = 469
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object btnToggleTheme: TButton
+    Anchors = [akRight, akBottom]
+    Position.X = 348.000000000000000000
+    Position.Y = 155.000000000000000000
+    Size.Width = 113.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Toggle Theme'
+    TextSettings.Trimming = None
+    OnClick = btnToggleThemeClick
+  end
+  object lblTheme: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 233.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'Heading1'
+    Text = 'Theme: Light'
+    TabOrder = 2
+  end
+end
